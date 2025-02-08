@@ -5,6 +5,14 @@
       animation: pathAnim-0 15s;
       animation-timing-function: linear;
       animation-iteration-count: infinite;
+      fill: url(#gradient-0-light);
+      fill-opacity: 1;
+    }
+
+    @media (prefers-color-scheme: light) {
+      .path-0 {
+        fill: url(#gradient-0-light);
+      }
     }
 
     @keyframes pathAnim-0 {
@@ -31,13 +39,20 @@
   </style>
   <path
     d="M 0,400 L 0,60 C 61.29628063126172,61.642972322821116 122.59256126252345,63.28594464564223 170,55 C 217.40743873747655,46.71405535435777 250.92603558116792,28.499193740252196 296,36 C 341.0739644188321,43.500806259747804 397.70329641280506,76.71728039334901 442,79 C 486.29670358719494,81.28271960665099 518.2607787676121,52.63168468635175 561,51 C 603.7392212323879,49.36831531364825 657.2535885167465,74.75598086124401 708,83 C 758.7464114832535,91.24401913875599 806.7248671654021,82.34439186867219 861,78 C 915.2751328345979,73.65560813132781 975.8469428216447,73.86645166406724 1027,68 C 1078.1530571783553,62.13354833593276 1119.8873615480186,50.18980147505882 1168,44 C 1216.1126384519814,37.81019852494118 1270.6036109862805,37.37434243569748 1317,41 C 1363.3963890137195,44.62565756430252 1401.6981945068596,52.31282878215126 1440,60 L 1440,400 L 0,400 Z"
-    stroke="none" stroke-width="0" fill="url(#gradient)" fill-opacity="0.265"
-    class="transition-all duration-300 ease-in-out delay-150 path-0" />
+    stroke="none" stroke-width="0" class="path-0" />
   <style>
     .path-1 {
       animation: pathAnim-1 20s;
       animation-timing-function: linear;
       animation-iteration-count: infinite;
+      fill: url(#gradient-1-light);
+      fill-opacity: 1;
+    }
+
+    @media (prefers-color-scheme: light) {
+      .path-1 {
+        fill: url(#gradient-1-light);
+      }
     }
 
     @keyframes pathAnim-1 {
@@ -64,13 +79,20 @@
   </style>
   <path
     d="M 0,400 L 0,140 C 36.557997832350836,151.04645906579606 73.11599566470167,162.09291813159214 126,161 C 178.88400433529833,159.90708186840786 248.0940151735441,146.67478653942743 308,147 C 367.9059848264559,147.32521346057257 418.5079436411219,161.20793571069814 458,166 C 497.4920563588781,170.79206428930186 525.8742102619683,166.49347061778002 573,165 C 620.1257897380317,163.50652938221998 685.9952153110049,164.81818181818178 737,163 C 788.0047846889951,161.18181818181822 824.1449284940123,156.23380210949273 858,150 C 891.8550715059877,143.76619789050727 923.4250707129454,136.2466097438473 981,136 C 1038.5749292870546,135.7533902561527 1122.1547886542069,142.77975891511804 1174,143 C 1225.8452113457931,143.22024108488196 1245.9557746702267,136.63435459568055 1285,135 C 1324.0442253297733,133.36564540431945 1382.0221126648867,136.68282270215974 1440,140 L 1440,400 L 0,400 Z"
-    stroke="none" stroke-width="0" fill="url(#gradient)" fill-opacity="0.4"
-    class="transition-all duration-300 ease-in-out delay-150 path-1" />
+    stroke="none" stroke-width="0" class="path-1" />
   <style>
     .path-2 {
       animation: pathAnim-2 20s;
       animation-timing-function: linear;
       animation-iteration-count: infinite;
+      fill: url(#gradient-2-light);
+      fill-opacity: 1;
+    }
+
+    @media (prefers-color-scheme: light) {
+      .path-2 {
+        fill: url(#gradient-2-light);
+      }
     }
 
     @keyframes pathAnim-2 {
@@ -97,8 +119,7 @@
   </style>
   <path
     d="M 0,400 L 0,220 C 39.65227735335324,204.80990774273707 79.30455470670648,189.61981548547413 125,197 C 170.69544529329352,204.38018451452587 222.43405852652734,234.3306458008406 276,243 C 329.56594147347266,251.6693541991594 384.9592111871844,239.0576013111634 437,239 C 489.0407888128156,238.9423986888366 537.7290967247351,251.43894895450578 588,249 C 638.2709032752649,246.56105104549422 690.1244019138755,229.1866028708134 729,224 C 767.8755980861245,218.8133971291866 793.7732956197627,225.8146395622406 844,227 C 894.2267043802373,228.1853604377594 968.782415607074,223.55483888022417 1023,215 C 1077.217584392926,206.44516111977583 1111.0970419519415,193.9660049168627 1156,202 C 1200.9029580480585,210.0339950831373 1256.8294165851594,238.58114145232497 1306,245 C 1355.1705834148406,251.41885854767503 1397.5852917074203,235.70942927383751 1440,220 L 1440,400 L 0,400 Z"
-    stroke="none" stroke-width="0" fill="url(#gradient)" fill-opacity="0.53"
-    class="transition-all duration-300 ease-in-out delay-150 path-2" />
+    stroke="none" stroke-width="0" class="path-2" />
 
   <!-- Logo -->
   <g transform="translate(720, 175) scale(7.2) translate(-24, -24)">
@@ -118,6 +139,14 @@
       animation: pathAnim-3 25s;
       animation-timing-function: linear;
       animation-iteration-count: infinite;
+      fill: url(#gradient-3-light);
+      fill-opacity: 1;
+    }
+
+    @media (prefers-color-scheme: light) {
+      .path-3 {
+        fill: url(#gradient-3-light);
+      }
     }
 
     @keyframes pathAnim-3 {
@@ -144,13 +173,40 @@
   </style>
   <path
     d="M 0,400 L 0,300 C 47.52773004837559,287.791575246504 95.05546009675118,275.583150493008 143,272 C 190.94453990324882,268.416849506992 239.30588966137088,273.45897327447193 287,280 C 334.6941103386291,286.54102672552807 381.72098125776523,294.58095640910415 435,299 C 488.27901874223477,303.41904359089585 547.8101853075683,304.21720108911154 599,303 C 650.1898146924317,301.78279891088846 693.0382775119617,298.55023923444975 738,302 C 782.9617224880383,305.44976076555025 830.0367046445848,315.58184197308947 876,324 C 921.9632953554152,332.41815802691053 966.8149039096991,339.1223928731925 1005,324 C 1043.185096090301,308.8776071268075 1074.7036797166195,271.92858653414044 1125,274 C 1175.2963202833805,276.07141346585956 1244.370377223823,317.1632609902456 1300,328 C 1355.629622776177,338.8367390097544 1397.8148113880884,319.4183695048772 1440,300 L 1440,400 L 0,400 Z"
-    stroke="none" stroke-width="0" fill="url(#gradient)" fill-opacity="1"
-    class="transition-all duration-300 ease-in-out delay-150 path-3" />
+    stroke="none" stroke-width="0" class="path-3" />
 
   <defs>
-    <linearGradient id="gradient" x1="50%" y1="100%" x2="50%" y2="0%">
-      <stop offset="5%" stop-color="#0e4429"></stop>
-      <stop offset="95%" stop-color="#39d353"></stop>
+    <linearGradient id="gradient-0" x1="50%" y1="100%" x2="50%" y2="0%">
+      <stop stop-color="#000000"></stop>
+      <stop offset="1" stop-color="#0e4429"></stop>
+    </linearGradient>
+    <linearGradient id="gradient-0-light" x1="50%" y1="100%" x2="50%" y2="0%">
+      <stop stop-color="#fcb045"></stop>
+      <stop offset="1" stop-color="#fd1d1d"></stop>
+    </linearGradient>
+    <linearGradient id="gradient-1" x1="50%" y1="100%" x2="50%" y2="0%">
+      <stop stop-color="#00381a"></stop>
+      <stop offset="1" stop-color="#006d32"></stop>
+    </linearGradient>
+    <linearGradient id="gradient-1-light" x1="50%" y1="100%" x2="50%" y2="0%">
+      <stop stop-color="#ffc117"></stop>
+      <stop offset="1" stop-color="#ee8726"></stop>
+    </linearGradient>
+    <linearGradient id="gradient-2" x1="50%" y1="100%" x2="50%" y2="0%">
+      <stop stop-color="#006d32"></stop>
+      <stop offset="1" stop-color="#26a641"></stop>
+    </linearGradient>
+    <linearGradient id="gradient-2-light" x1="50%" y1="100%" x2="50%" y2="0%">
+      <stop stop-color="#fcce0c"></stop>f5735c
+      <stop offset="1" stop-color="#ffe131"></stop>
+    </linearGradient>
+    <linearGradient id="gradient-3" x1="50%" y1="100%" x2="50%" y2="0%">
+      <stop stop-color="#0e4429"></stop>
+      <stop offset="1" stop-color="#39d353"></stop>
+    </linearGradient>
+    <linearGradient id="gradient-3-light" x1="50%" y1="100%" x2="50%" y2="0%">
+      <stop stop-color="#ffffff"></stop>
+      <stop offset="1" stop-color="#fff860"></stop>
     </linearGradient>
   </defs>
 
